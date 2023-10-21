@@ -67,13 +67,17 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Please Enter Appropriate Amount of Drink.", Toast.LENGTH_SHORT).show();
                 }else{
                     Toast.makeText(MainActivity.this, "Thank You " + name + " for order: " + quantity + " Latte.", Toast.LENGTH_SHORT).show();
-                    etName.setText("");
-                    quantity = 0;
-                    tvQuantity.setText(""+quantity);
 
                     Intent intent = new Intent(MainActivity.this, OrderDetailActivity.class);
-                    startActivity(intent);
+                    intent.putExtra("quantity", quantity);
+                    intent.putExtra("name", name);
 
+                    tvQuantity.setText(""+quantity);
+                    quantity = 0;
+                    name = "";
+                    etName.setText("");
+
+                    startActivity(intent);
 
                 }
 

@@ -10,6 +10,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:text="Your Order Detail"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,12 +45,12 @@
         android:layout_marginStart="8dp"
         android:text="Latte"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/tv_quantity_orderactivity"
-        app:layout_constraintStart_toEndOf="@+id/tv_quantity_orderactivity"
-        app:layout_constraintTop_toTopOf="@+id/tv_quantity_orderactivity" />
+        app:layout_constraintBottom_toBottomOf="@+id/tv_Quantity_OrderActivity"
+        app:layout_constraintStart_toEndOf="@+id/tv_Quantity_OrderActivity"
+        app:layout_constraintTop_toTopOf="@+id/tv_Quantity_OrderActivity" />
 
     <TextView
-        android:id="@+id/tv_name_orderactivity"
+        android:id="@+id/tv_Name_OrderActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -60,7 +61,7 @@
         app:layout_constraintTop_toTopOf="@+id/textView2" />
 
     <TextView
-        android:id="@+id/tv_quantity_orderactivity"
+        android:id="@+id/tv_Quantity_OrderActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -71,34 +72,34 @@
         app:layout_constraintTop_toTopOf="@+id/textView3" />
 
     <ImageButton
-        android:id="@+id/btn_call_orderactivity"
+        android:id="@+id/btn_Call_OrderActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btn_web_orderactivity"
+        app:layout_constraintEnd_toStartOf="@+id/btn_Web_OrderActivity"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/baseline_call_24" />
 
     <ImageButton
-        android:id="@+id/btn_email_orderactivity"
+        android:id="@+id/btn_Email_OrderActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/btn_web_orderactivity"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_Web_OrderActivity"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_web_orderactivity"
+        app:layout_constraintStart_toEndOf="@+id/btn_Web_OrderActivity"
         app:srcCompat="@drawable/baseline_email_24" />
 
     <ImageButton
-        android:id="@+id/btn_web_orderactivity"
+        android:id="@+id/btn_Web_OrderActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/btn_call_orderactivity"
-        app:layout_constraintEnd_toStartOf="@+id/btn_email_orderactivity"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_Call_OrderActivity"
+        app:layout_constraintEnd_toStartOf="@+id/btn_Email_OrderActivity"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_call_orderactivity"
+        app:layout_constraintStart_toEndOf="@+id/btn_Call_OrderActivity"
         app:srcCompat="@drawable/baseline_public_24" />
 
     <TextView
@@ -108,6 +109,6 @@
         android:layout_marginStart="8dp"
         android:layout_marginBottom="8dp"
         android:text="Contact Us"
-        app:layout_constraintBottom_toTopOf="@+id/btn_call_orderactivity"
+        app:layout_constraintBottom_toTopOf="@+id/btn_Call_OrderActivity"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
