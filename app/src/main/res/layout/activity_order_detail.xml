@@ -74,7 +74,7 @@
     <ImageButton
         android:id="@+id/btn_Call_OrderActivity"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btn_Web_OrderActivity"
@@ -85,7 +85,7 @@
     <ImageButton
         android:id="@+id/btn_Email_OrderActivity"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         app:layout_constraintBottom_toBottomOf="@+id/btn_Web_OrderActivity"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -95,7 +95,7 @@
     <ImageButton
         android:id="@+id/btn_Web_OrderActivity"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         app:layout_constraintBottom_toBottomOf="@+id/btn_Call_OrderActivity"
         app:layout_constraintEnd_toStartOf="@+id/btn_Email_OrderActivity"
         app:layout_constraintHorizontal_bias="0.5"
